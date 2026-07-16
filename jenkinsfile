@@ -1,9 +1,3 @@
-Root directory
-
-Jenkinsfile
-
-Pipeline
-
 pipeline {
 
     agent any
@@ -36,7 +30,7 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
+        stage ('Deploy') {
             steps {
                 sh '''
                 pkill -f app.py || true
