@@ -6,7 +6,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourusername/flask_Practice.git'
+                git 'https://github.com/Manoj-Sharma79/CI-CD-Pipeline'
             }
         }
 
